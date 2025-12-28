@@ -1,0 +1,388 @@
+# Math snippets for LaTeX note-taking
+# Usage: Type the trigger and press Tab to expand
+
+# Fractions
+snippet // "Fraction" A
+\frac{$1}{$2}$0
+endsnippet
+
+snippet /2 "Fraction with 2" A
+\frac{$1}{2}$0
+endsnippet
+
+snippet /3 "Fraction with 3" A
+\frac{$1}{3}$0
+endsnippet
+
+# Superscripts and subscripts
+snippet ^2 "Squared" A
+^{2}$0
+endsnippet
+
+snippet ^3 "Cubed" A
+^{3}$0
+endsnippet
+
+snippet inverse "Inverse" A
+^{-1}$0
+endsnippet
+
+snippet _n "Subscript n" A
+_{n}$0
+endsnippet
+
+snippet _i "Subscript i" A
+_{i}$0
+endsnippet
+
+snippet _j "Subscript j" A
+_{j}$0
+endsnippet
+
+# Greek letters
+snippet alpha "Alpha" A
+\alpha$0
+endsnippet
+
+snippet beta "Beta" A
+\beta$0
+endsnippet
+
+snippet gamma "Gamma" A
+\gamma$0
+endsnippet
+
+snippet delta "Delta" A
+\delta$0
+endsnippet
+
+snippet epsilon "Epsilon" A
+\epsilon$0
+endsnippet
+
+snippet theta "Theta" A
+\theta$0
+endsnippet
+
+snippet lambda "Lambda" A
+\lambda$0
+endsnippet
+
+snippet mu "Mu" A
+\mu$0
+endsnippet
+
+snippet pi "Pi" A
+\pi$0
+endsnippet
+
+snippet sigma "Sigma" A
+\sigma$0
+endsnippet
+
+snippet phi "Phi" A
+\phi$0
+endsnippet
+
+snippet omega "Omega" A
+\omega$0
+endsnippet
+
+# Capital Greek letters
+snippet Alpha "Capital Alpha" A
+\Alpha$0
+endsnippet
+
+snippet Beta "Capital Beta" A
+\Beta$0
+endsnippet
+
+snippet Gamma "Capital Gamma" A
+\Gamma$0
+endsnippet
+
+snippet Delta "Capital Delta" A
+\Delta$0
+endsnippet
+
+snippet Theta "Capital Theta" A
+\Theta$0
+endsnippet
+
+snippet Lambda "Capital Lambda" A
+\Lambda$0
+endsnippet
+
+snippet Pi "Capital Pi" A
+\Pi$0
+endsnippet
+
+snippet Sigma "Capital Sigma" A
+\Sigma$0
+endsnippet
+
+snippet Phi "Capital Phi" A
+\Phi$0
+endsnippet
+
+snippet Omega "Capital Omega" A
+\Omega$0
+endsnippet
+
+# Sums and integrals
+snippet sum "Sum" A
+\sum_{$1}^{$2} $0
+endsnippet
+
+snippet sumi "Sum from i=1 to n" A
+\sum_{i=1}^{n} $0
+endsnippet
+
+snippet int "Integral" A
+\int $0
+endsnippet
+
+snippet intab "Integral from a to b" A
+\int_{$1}^{$2} $0
+endsnippet
+
+snippet intinf "Integral from -inf to inf" A
+\int_{-\infty}^{\infty} $0
+endsnippet
+
+# Limits
+snippet lim "Limit" A
+\lim_{$1 \to $2} $0
+endsnippet
+
+snippet limn "Limit as n goes to infinity" A
+\lim_{n \to \infty} $0
+endsnippet
+
+snippet limx "Limit as x goes to 0" A
+\lim_{x \to 0} $0
+endsnippet
+
+# Sets and logic
+snippet in "Element of" A
+\in $0
+endsnippet
+
+snippet notin "Not element of" A
+\notin $0
+endsnippet
+
+snippet subset "Subset" A
+\subset $0
+endsnippet
+
+snippet subseteq "Subset or equal" A
+\subseteq $0
+endsnippet
+
+snippet forall "For all" A
+\forall $0
+endsnippet
+
+snippet exists "Exists" A
+\exists $0
+endsnippet
+
+snippet implies "Implies" A
+\implies $0
+endsnippet
+
+snippet iff "If and only if" A
+\iff $0
+endsnippet
+
+# Matrices
+snippet pmat "Parentheses matrix" A
+\begin{pmatrix}
+$1 & $2 \\
+$3 & $4
+\end{pmatrix}$0
+endsnippet
+
+snippet bmat "Brackets matrix" A
+\begin{bmatrix}
+$1 & $2 \\
+$3 & $4
+\end{bmatrix}$0
+endsnippet
+
+snippet vmat "Vertical bars matrix" A
+\begin{vmatrix}
+$1 & $2 \\
+$3 & $4
+\end{vmatrix}$0
+endsnippet
+
+# Common number sets
+snippet RR "Real numbers" A
+\mathbb{R}$0
+endsnippet
+
+snippet NN "Natural numbers" A
+\mathbb{N}$0
+endsnippet
+
+snippet ZZ "Integers" A
+\mathbb{Z}$0
+endsnippet
+
+snippet QQ "Rational numbers" A
+\mathbb{Q}$0
+endsnippet
+
+snippet CC "Complex numbers" A
+\mathbb{C}$0
+endsnippet
+
+# Environments
+snippet align "Align environment" A
+\begin{align}
+$1
+\end{align}$0
+endsnippet
+
+snippet eqnarray "Equation array" A
+\begin{eqnarray}
+$1
+\end{eqnarray}$0
+endsnippet
+
+snippet cases "Cases" A
+\begin{cases}
+$1 & \text{if } $2 \\
+$3 & \text{otherwise}
+\end{cases}$0
+endsnippet
+
+# Common functions
+snippet sin "Sine" A
+\sin($1)$0
+endsnippet
+
+snippet cos "Cosine" A
+\cos($1)$0
+endsnippet
+
+snippet tan "Tangent" A
+\tan($1)$0
+endsnippet
+
+snippet log "Logarithm" A
+\log($1)$0
+endsnippet
+
+snippet ln "Natural log" A
+\ln($1)$0
+endsnippet
+
+snippet exp "Exponential" A
+\exp($1)$0
+endsnippet
+
+snippet sqrt "Square root" A
+\sqrt{$1}$0
+endsnippet
+
+# Arrows
+snippet to "Arrow" A
+\to $0
+endsnippet
+
+snippet mapsto "Maps to" A
+\mapsto $0
+endsnippet
+
+snippet leftarrow "Left arrow" A
+\leftarrow $0
+endsnippet
+
+snippet rightarrow "Right arrow" A
+\rightarrow $0
+endsnippet
+
+snippet leftrightarrow "Left-right arrow" A
+\leftrightarrow $0
+endsnippet
+
+# Common symbols
+snippet neq "Not equal" A
+\neq $0
+endsnippet
+
+snippet leq "Less than or equal" A
+\leq $0
+endsnippet
+
+snippet geq "Greater than or equal" A
+\geq $0
+endsnippet
+
+snippet approx "Approximately equal" A
+\approx $0
+endsnippet
+
+snippet equiv "Equivalent" A
+\equiv $0
+endsnippet
+
+snippet pm "Plus minus" A
+\pm $0
+endsnippet
+
+snippet mp "Minus plus" A
+\mp $0
+endsnippet
+
+snippet cdot "Center dot" A
+\cdot $0
+endsnippet
+
+snippet times "Times" A
+\times $0
+endsnippet
+
+snippet div "Divide" A
+\div $0
+endsnippet
+
+snippet cap "Intersection" A
+\cap $0
+endsnippet
+
+snippet cup "Union" A
+\cup $0
+endsnippet
+
+snippet empty "Empty set" A
+\emptyset $0
+endsnippet
+
+snippet infinity "Infinity" A
+\infty $0
+endsnippet
+
+# Derivatives
+snippet ddx "Derivative d/dx" A
+\frac{d}{dx}$0
+endsnippet
+
+snippet dydx "Derivative dy/dx" A
+\frac{dy}{dx}$0
+endsnippet
+
+snippet d2ydx2 "Second derivative" A
+\frac{d^2y}{dx^2}$0
+endsnippet
+
+snippet partial "Partial derivative" A
+\frac{\partial}{\partial $1}$0
+endsnippet
+
+snippet underline "Underline" A
+\underline{$1}$0
+endsnippet

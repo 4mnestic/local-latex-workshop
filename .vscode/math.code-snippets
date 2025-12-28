@@ -1,0 +1,666 @@
+{
+  "Math Fractions": {
+    "prefix": "//",
+    "body": [
+      "\\frac{$1}{$2}$0"
+    ],
+    "description": "Fraction"
+  },
+  "Fraction with 2": {
+    "prefix": "/2",
+    "body": [
+      "\\frac{$1}{2}$0"
+    ],
+    "description": "Fraction with 2"
+  },
+  "Fraction with 3": {
+    "prefix": "/3",
+    "body": [
+      "\\frac{$1}{3}$0"
+    ],
+    "description": "Fraction with 3"
+  },
+  "Squared": {
+    "prefix": "^2",
+    "body": [
+      "^{2}$0"
+    ],
+    "description": "Squared"
+  },
+  "Cubed": {
+    "prefix": "^3",
+    "body": [
+      "^{3}$0"
+    ],
+    "description": "Cubed"
+  },
+  "Subscript n": {
+    "prefix": "_n",
+    "body": [
+      "_{n}$0"
+    ],
+    "description": "Subscript n"
+  },
+  "Subscript i": {
+    "prefix": "_i",
+    "body": [
+      "_{i}$0"
+    ],
+    "description": "Subscript i"
+  },
+  "Subscript j": {
+    "prefix": "_j",
+    "body": [
+      "_{j}$0"
+    ],
+    "description": "Subscript j"
+  },
+  "Alpha": {
+    "prefix": "alpha",
+    "body": [
+      "\\alpha$0"
+    ],
+    "description": "Alpha"
+  },
+  "Beta": {
+    "prefix": "beta",
+    "body": [
+      "\\beta$0"
+    ],
+    "description": "Beta"
+  },
+  "Gamma": {
+    "prefix": "gamma",
+    "body": [
+      "\\gamma$0"
+    ],
+    "description": "Gamma"
+  },
+  "Delta": {
+    "prefix": "delta",
+    "body": [
+      "\\delta$0"
+    ],
+    "description": "Delta"
+  },
+  "Epsilon": {
+    "prefix": "epsilon",
+    "body": [
+      "\\epsilon$0"
+    ],
+    "description": "Epsilon"
+  },
+  "Theta": {
+    "prefix": "theta",
+    "body": [
+      "\\theta$0"
+    ],
+    "description": "Theta"
+  },
+  "Lambda": {
+    "prefix": "lambda",
+    "body": [
+      "\\lambda$0"
+    ],
+    "description": "Lambda"
+  },
+  "Mu": {
+    "prefix": "mu",
+    "body": [
+      "\\mu$0"
+    ],
+    "description": "Mu"
+  },
+  "Pi": {
+    "prefix": "pi",
+    "body": [
+      "\\pi$0"
+    ],
+    "description": "Pi"
+  },
+  "Sigma": {
+    "prefix": "sigma",
+    "body": [
+      "\\sigma$0"
+    ],
+    "description": "Sigma"
+  },
+  "Phi": {
+    "prefix": "phi",
+    "body": [
+      "\\phi$0"
+    ],
+    "description": "Phi"
+  },
+  "Omega": {
+    "prefix": "omega",
+    "body": [
+      "\\omega$0"
+    ],
+    "description": "Omega"
+  },
+  "Capital Alpha": {
+    "prefix": "Alpha",
+    "body": [
+      "\\Alpha$0"
+    ],
+    "description": "Capital Alpha"
+  },
+  "Capital Beta": {
+    "prefix": "Beta",
+    "body": [
+      "\\Beta$0"
+    ],
+    "description": "Capital Beta"
+  },
+  "Capital Gamma": {
+    "prefix": "Gamma",
+    "body": [
+      "\\Gamma$0"
+    ],
+    "description": "Capital Gamma"
+  },
+  "Capital Delta": {
+    "prefix": "Delta",
+    "body": [
+      "\\Delta$0"
+    ],
+    "description": "Capital Delta"
+  },
+  "Capital Theta": {
+    "prefix": "Theta",
+    "body": [
+      "\\Theta$0"
+    ],
+    "description": "Capital Theta"
+  },
+  "Capital Lambda": {
+    "prefix": "Lambda",
+    "body": [
+      "\\Lambda$0"
+    ],
+    "description": "Capital Lambda"
+  },
+  "Capital Pi": {
+    "prefix": "Pi",
+    "body": [
+      "\\Pi$0"
+    ],
+    "description": "Capital Pi"
+  },
+  "Capital Sigma": {
+    "prefix": "Sigma",
+    "body": [
+      "\\Sigma$0"
+    ],
+    "description": "Capital Sigma"
+  },
+  "Capital Phi": {
+    "prefix": "Phi",
+    "body": [
+      "\\Phi$0"
+    ],
+    "description": "Capital Phi"
+  },
+  "Capital Omega": {
+    "prefix": "Omega",
+    "body": [
+      "\\Omega$0"
+    ],
+    "description": "Capital Omega"
+  },
+  "Sum": {
+    "prefix": "sum",
+    "body": [
+      "\\sum_{$1}^{$2} $0"
+    ],
+    "description": "Sum"
+  },
+  "Sum from i=1 to n": {
+    "prefix": "sumi",
+    "body": [
+      "\\sum_{i=1}^{n} $0"
+    ],
+    "description": "Sum from i=1 to n"
+  },
+  "Integral": {
+    "prefix": "int",
+    "body": [
+      "\\int $0"
+    ],
+    "description": "Integral"
+  },
+  "Integral from a to b": {
+    "prefix": "intab",
+    "body": [
+      "\\int_{$1}^{$2} $0"
+    ],
+    "description": "Integral from a to b"
+  },
+  "Integral from -inf to inf": {
+    "prefix": "intinf",
+    "body": [
+      "\\int_{-\\infty}^{\\infty} $0"
+    ],
+    "description": "Integral from -inf to inf"
+  },
+  "Limit": {
+    "prefix": "lim",
+    "body": [
+      "\\lim_{$1 \\to $2} $0"
+    ],
+    "description": "Limit"
+  },
+  "Limit as n goes to infinity": {
+    "prefix": "limn",
+    "body": [
+      "\\lim_{n \\to \\infty} $0"
+    ],
+    "description": "Limit as n goes to infinity"
+  },
+  "Limit as x goes to 0": {
+    "prefix": "limx",
+    "body": [
+      "\\lim_{x \\to 0} $0"
+    ],
+    "description": "Limit as x goes to 0"
+  },
+  "Element of": {
+    "prefix": "in",
+    "body": [
+      "\\in $0"
+    ],
+    "description": "Element of"
+  },
+  "Not element of": {
+    "prefix": "notin",
+    "body": [
+      "\\notin $0"
+    ],
+    "description": "Not element of"
+  },
+  "Subset": {
+    "prefix": "subset",
+    "body": [
+      "\\subset $0"
+    ],
+    "description": "Subset"
+  },
+  "Subset or equal": {
+    "prefix": "subseteq",
+    "body": [
+      "\\subseteq $0"
+    ],
+    "description": "Subset or equal"
+  },
+  "For all": {
+    "prefix": "forall",
+    "body": [
+      "\\forall $0"
+    ],
+    "description": "For all"
+  },
+  "Exists": {
+    "prefix": "exists",
+    "body": [
+      "\\exists $0"
+    ],
+    "description": "Exists"
+  },
+  "Implies": {
+    "prefix": "implies",
+    "body": [
+      "\\implies $0"
+    ],
+    "description": "Implies"
+  },
+  "If and only if": {
+    "prefix": "iff",
+    "body": [
+      "\\iff $0"
+    ],
+    "description": "If and only if"
+  },
+  "Parentheses matrix": {
+    "prefix": "pmat",
+    "body": [
+      "\\begin{pmatrix}",
+      "$1 & $2 \\\\",
+      "$3 & $4",
+      "\\end{pmatrix}$0"
+    ],
+    "description": "Parentheses matrix"
+  },
+  "Brackets matrix": {
+    "prefix": "bmat",
+    "body": [
+      "\\begin{bmatrix}",
+      "$1 & $2 \\\\",
+      "$3 & $4",
+      "\\end{bmatrix}$0"
+    ],
+    "description": "Brackets matrix"
+  },
+  "Vertical bars matrix": {
+    "prefix": "vmat",
+    "body": [
+      "\\begin{vmatrix}",
+      "$1 & $2 \\\\",
+      "$3 & $4",
+      "\\end{vmatrix}$0"
+    ],
+    "description": "Vertical bars matrix"
+  },
+  "Real numbers": {
+    "prefix": "RR",
+    "body": [
+      "\\mathbb{R}$0"
+    ],
+    "description": "Real numbers"
+  },
+  "Natural numbers": {
+    "prefix": "NN",
+    "body": [
+      "\\mathbb{N}$0"
+    ],
+    "description": "Natural numbers"
+  },
+  "Integers": {
+    "prefix": "ZZ",
+    "body": [
+      "\\mathbb{Z}$0"
+    ],
+    "description": "Integers"
+  },
+  "Rational numbers": {
+    "prefix": "QQ",
+    "body": [
+      "\\mathbb{Q}$0"
+    ],
+    "description": "Rational numbers"
+  },
+  "Complex numbers": {
+    "prefix": "CC",
+    "body": [
+      "\\mathbb{C}$0"
+    ],
+    "description": "Complex numbers"
+  },
+  "Align environment": {
+    "prefix": "align",
+    "body": [
+      "\\begin{align}",
+      "$1",
+      "\\end{align}$0"
+    ],
+    "description": "Align environment"
+  },
+  "Equation array": {
+    "prefix": "eqnarray",
+    "body": [
+      "\\begin{eqnarray}",
+      "$1",
+      "\\end{eqnarray}$0"
+    ],
+    "description": "Equation array"
+  },
+  "Cases": {
+    "prefix": "cases",
+    "body": [
+      "\\begin{cases}",
+      "$1 & \\text{if } $2 \\\\",
+      "$3 & \\text{otherwise}",
+      "\\end{cases}$0"
+    ],
+    "description": "Cases"
+  },
+  "Sine": {
+    "prefix": "sin",
+    "body": [
+      "\\sin($1)$0"
+    ],
+    "description": "Sine"
+  },
+  "Cosine": {
+    "prefix": "cos",
+    "body": [
+      "\\cos($1)$0"
+    ],
+    "description": "Cosine"
+  },
+  "Tangent": {
+    "prefix": "tan",
+    "body": [
+      "\\tan($1)$0"
+    ],
+    "description": "Tangent"
+  },
+  "Logarithm": {
+    "prefix": "log",
+    "body": [
+      "\\log($1)$0"
+    ],
+    "description": "Logarithm"
+  },
+  "Natural log": {
+    "prefix": "ln",
+    "body": [
+      "\\ln($1)$0"
+    ],
+    "description": "Natural log"
+  },
+  "Exponential": {
+    "prefix": "exp",
+    "body": [
+      "\\exp($1)$0"
+    ],
+    "description": "Exponential"
+  },
+  "Square root": {
+    "prefix": "sqrt",
+    "body": [
+      "\\sqrt{$1}$0"
+    ],
+    "description": "Square root"
+  },
+  "Arrow": {
+    "prefix": "to",
+    "body": [
+      "\\to $0"
+    ],
+    "description": "Arrow"
+  },
+  "Maps to": {
+    "prefix": "mapsto",
+    "body": [
+      "\\mapsto $0"
+    ],
+    "description": "Maps to"
+  },
+  "Left arrow": {
+    "prefix": "leftarrow",
+    "body": [
+      "\\leftarrow $0"
+    ],
+    "description": "Left arrow"
+  },
+  "Right arrow": {
+    "prefix": "rightarrow",
+    "body": [
+      "\\rightarrow $0"
+    ],
+    "description": "Right arrow"
+  },
+  "Left-right arrow": {
+    "prefix": "leftrightarrow",
+    "body": [
+      "\\leftrightarrow $0"
+    ],
+    "description": "Left-right arrow"
+  },
+  "Not equal": {
+    "prefix": "neq",
+    "body": [
+      "\\neq $0"
+    ],
+    "description": "Not equal"
+  },
+  "Less than or equal": {
+    "prefix": "leq",
+    "body": [
+      "\\leq $0"
+    ],
+    "description": "Less than or equal"
+  },
+  "Greater than or equal": {
+    "prefix": "geq",
+    "body": [
+      "\\geq $0"
+    ],
+    "description": "Greater than or equal"
+  },
+  "Approximately equal": {
+    "prefix": "approx",
+    "body": [
+      "\\approx $0"
+    ],
+    "description": "Approximately equal"
+  },
+  "Equivalent": {
+    "prefix": "equiv",
+    "body": [
+      "\\equiv $0"
+    ],
+    "description": "Equivalent"
+  },
+  "Plus minus": {
+    "prefix": "pm",
+    "body": [
+      "\\pm $0"
+    ],
+    "description": "Plus minus"
+  },
+  "Minus plus": {
+    "prefix": "mp",
+    "body": [
+      "\\mp $0"
+    ],
+    "description": "Minus plus"
+  },
+  "Center dot": {
+    "prefix": "cdot",
+    "body": [
+      "\\cdot $0"
+    ],
+    "description": "Center dot"
+  },
+  "Times": {
+    "prefix": "times",
+    "body": [
+      "\\times $0"
+    ],
+    "description": "Times"
+  },
+  "Divide": {
+    "prefix": "div",
+    "body": [
+      "\\div $0"
+    ],
+    "description": "Divide"
+  },
+  "Intersection": {
+    "prefix": "cap",
+    "body": [
+      "\\cap $0"
+    ],
+    "description": "Intersection"
+  },
+  "Union": {
+    "prefix": "cup",
+    "body": [
+      "\\cup $0"
+    ],
+    "description": "Union"
+  },
+  "Empty set": {
+    "prefix": "empty",
+    "body": [
+      "\\emptyset $0"
+    ],
+    "description": "Empty set"
+  },
+  "Infinity": {
+    "prefix": "infinity",
+    "body": [
+      "\\infty $0"
+    ],
+    "description": "Infinity"
+  },
+  "Derivative d/dx": {
+    "prefix": "ddx",
+    "body": [
+      "\\frac{d}{dx}$0"
+    ],
+    "description": "Derivative d/dx"
+  },
+  "Derivative dy/dx": {
+    "prefix": "dydx",
+    "body": [
+      "\\frac{dy}{dx}$0"
+    ],
+    "description": "Derivative dy/dx"
+  },
+  "Second derivative": {
+    "prefix": "d2ydx2",
+    "body": [
+      "\\frac{d^2y}{dx^2}$0"
+    ],
+    "description": "Second derivative"
+  },
+  "Partial derivative": {
+    "prefix": "partial",
+    "body": [
+      "\\frac{\\partial}{\\partial $1}$0"
+    ],
+    "description": "Partial derivative"
+  },
+  "Math mode": {
+    "prefix": "$",
+    "body": [
+      "$$1$$0"
+    ],
+    "description": "Math mode with auto-closing $"
+  },
+  "Inverse": {
+    "prefix": "inverse",
+    "body": [
+      "^{-1}$0"
+    ],
+    "description": "Inverse"
+  },
+  "TColorBox": {
+    "prefix": "tcolorbox",
+    "body": [
+      "\\begin{tcolorbox}",
+      "$1",
+      "\\end{tcolorbox}$0"
+    ],
+    "description": "TColorBox environment"
+  },
+  "Underline": {
+    "prefix": "underline",
+    "body": [
+      "\\underline{$1}$0"
+    ],
+    "description": "Underline"
+  },
+  "Align* environment": {
+    "prefix": "align*",
+    "body": [
+      "\\begin{align*}",
+      "$1",
+      "\\end{align*}$0"
+    ],
+    "description": "Align* environment"
+  }
+}

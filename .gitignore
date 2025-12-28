@@ -1,0 +1,62 @@
+# Private content (keep in separate private repo)
+# Exclude all contents but keep .vscode/settings.json files for configuration
+tex-source/*
+!tex-source/*/
+tex-source/*/*
+!tex-source/*/.vscode/
+!tex-source/*/.vscode/settings.json
+build/*
+!build/.gitkeep
+
+# LaTeX build artifacts
+*.aux
+*.bbl
+*.blg
+*.idx
+*.ind
+*.lof
+*.lot
+*.out
+*.toc
+*.acn
+*.acr
+*.alg
+*.glg
+*.glo
+*.gls
+*.ist
+*.fls
+*.log
+*.fdb_latexmk
+*.synctex.gz
+*.nav
+*.snm
+*.vrb
+*.bcf
+*.run.xml
+*.figlist
+*.makefile
+*.auxlock
+
+# Generated PDFs (if any end up in source directories)
+# Note: build/ directory is already ignored above
+*.pdf
+
+# VS Code
+.vscode/settings.json.bak
+
+# HyperSnips cache (but allow snippet files)
+.hypersnips/*
+!.hypersnips/*.hsnips
+
+# Cursor AI
+.cursor/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db

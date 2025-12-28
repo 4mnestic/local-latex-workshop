@@ -4,7 +4,7 @@ VS Code workspace for mathematical notes, homework, and exercises with auto-comp
 
 ## Setup
 
-1. **Install LaTeX distribution:**
+1. **Install LaTeX distribution (Arch Linux):**
    ```bash
    sudo pacman -S texlive-most texlive-lang
    ```

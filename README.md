@@ -1,6 +1,6 @@
 # LaTeX Math Note-Taking Workspace
 
-VS Code workspace for mathematical notes, homework, and exercises with auto-compilation and snippet expansion.
+VS Code multi-root workspace for mathematical notes, homework, and exercises with auto-compilation and snippet expansion.
 
 ## Setup
 
